@@ -6,7 +6,7 @@
 html,body{
     background-color: hsl(0, 4%, 24%);
     color: white;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 a{
     color: white;
