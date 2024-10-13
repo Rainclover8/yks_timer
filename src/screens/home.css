@@ -1,0 +1,44 @@
+/* Genel sayfa stilini düzenler */
+.container {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .titleHeader {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: grey;
+  }
+  
+  .parentDiv {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  /* Sınav linklerinin stilini düzenler */
+  .examLink {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #3498db;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .examLink:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Responsive tasarım için mobil uyum */
+  @media (max-width: 768px) {
+    .examLink {
+      padding: 12px 25px;
+      font-size: 1rem;
+    }
+  }
+  

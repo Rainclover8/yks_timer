@@ -1,0 +1,25 @@
+.countdown-container {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .title {
+    font-size: 2rem;
+    color: white;
+  }
+  
+  .countdown {
+    font-size: 3rem;
+    color: #e74c3c;
+  }
+  
+  a {
+    font-size: 1.5rem;
+    color: #3498db;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
